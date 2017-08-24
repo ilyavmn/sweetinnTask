@@ -144,6 +144,14 @@ body{
   padding: 10px 0 0;
 }
 
+.home-search .history-wrapper{
+  padding: 10px;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  background: #eaeaea;
+}
+
 .history-wrapper .history-button{
   font-size: 16px;
   padding: 0 0 0 15px;
