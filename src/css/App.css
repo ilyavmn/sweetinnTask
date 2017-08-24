@@ -214,16 +214,16 @@ body{
     margin: 1%;
     width: 46%;
     float:  left;
-    /* -webkit-animation: pulsate 3s linear infinite;
-    -moz-animation: pulsate 3s linear infinite; */
+    -webkit-animation: pulsate 3s linear infinite;
+    -moz-animation: pulsate 3s linear infinite;
     animation: pulsate 3s linear infinite;
 }
 
 .results-wrapper img{
   height: 200px;
   width: 100%;
-    /* -webkit-animation: .5s ease 0s normal forwards 1 fadein;
-    -moz-animation: .5s ease 0s normal forwards 1 fadein; */
+    -webkit-animation: .5s ease 0s normal forwards 1 fadein;
+    -moz-animation: .5s ease 0s normal forwards 1 fadein;
     animation: .5s ease 0s normal forwards 1 fadein;
 }
 
@@ -233,7 +233,7 @@ body{
     100% { opacity:1; }
 }
 
-/* @-moz-keyframes fadein{
+@-moz-keyframes fadein{
     0% { opacity:0; }
     66% { opacity:0; }
     100% { opacity:1; }
@@ -243,9 +243,9 @@ body{
     0% { opacity:0; }
     66% { opacity:0; }
     100% { opacity:1; }
-} */
+}
 
-/* @-webkit-keyframes pulsate {
+@-webkit-keyframes pulsate {
     0% {background: #dedede}
     50% {background: #f1f1f1}
     100% {background: #dedede}
@@ -254,7 +254,7 @@ body{
     0% {background: #dedede}
     50% {background: #f1f1f1}
     100% {background: #dedede}
-} */
+}
 @keyframes pulsate {
     0% {background: #dedede}
     50% {background: #f1f1f1}
