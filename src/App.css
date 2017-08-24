@@ -69,7 +69,7 @@ body{
 }
 .home-wrapper {
   background-image: url(https://d3vk1fw5taqp37.cloudfront.net/styleguide/homepage_intro_690.jpg);
-  height: -webkit-fill-available;
+  height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -88,7 +88,7 @@ body{
   left:  50%;
   transform: translate(-50%, -25%);
   width: 80%;
-  padding: 15px 15px 11px;
+  padding: 0
 }
 
 .results-search .search-bar-wrapper {
@@ -131,7 +131,13 @@ body{
 
 .home-search .search-bar-wrapper input{
   border:  0 none;
-  font-size: 22px;
+  font-size: 22px;  
+  line-height: 40px;
+}
+
+.home-search .search-bar-wrapper .search-button{
+  margin: 9px 0 0 0;
+  width:  88px;
 }
 
 .history-wrapper{
@@ -200,16 +206,16 @@ body{
     margin: 1%;
     width: 46%;
     float:  left;
-    -webkit-animation: pulsate 3s linear infinite;
-    -moz-animation: pulsate 3s linear infinite;
+    /* -webkit-animation: pulsate 3s linear infinite;
+    -moz-animation: pulsate 3s linear infinite; */
     animation: pulsate 3s linear infinite;
 }
 
 .results-wrapper img{
   height: 200px;
   width: 100%;
-    -webkit-animation: .5s ease 0s normal forwards 1 fadein;
-    -moz-animation: .5s ease 0s normal forwards 1 fadein;
+    /* -webkit-animation: .5s ease 0s normal forwards 1 fadein;
+    -moz-animation: .5s ease 0s normal forwards 1 fadein; */
     animation: .5s ease 0s normal forwards 1 fadein;
 }
 
@@ -219,7 +225,7 @@ body{
     100% { opacity:1; }
 }
 
-@-moz-keyframes fadein{
+/* @-moz-keyframes fadein{
     0% { opacity:0; }
     66% { opacity:0; }
     100% { opacity:1; }
@@ -229,9 +235,9 @@ body{
     0% { opacity:0; }
     66% { opacity:0; }
     100% { opacity:1; }
-}
+} */
 
-@-webkit-keyframes pulsate {
+/* @-webkit-keyframes pulsate {
     0% {background: #dedede}
     50% {background: #f1f1f1}
     100% {background: #dedede}
@@ -240,7 +246,7 @@ body{
     0% {background: #dedede}
     50% {background: #f1f1f1}
     100% {background: #dedede}
-}
+} */
 @keyframes pulsate {
     0% {background: #dedede}
     50% {background: #f1f1f1}
@@ -284,7 +290,7 @@ body{
 .loader-dots:after {
   left: 3.5em;
 }
-@-webkit-keyframes load7 {
+/* @-webkit-keyframes load7 {
   0%,
   80%,
   100% {
@@ -293,7 +299,7 @@ body{
   40% {
     box-shadow: 0 2.5em 0 0;
   }
-}
+} */
 @keyframes load7 {
   0%,
   80%,
