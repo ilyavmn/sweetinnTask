@@ -1,6 +1,9 @@
 import axios from "axios";
 
 const flickr_api_url = 'https://api.flickr.com/services/rest/';
+const getCurrentTime = () => {
+    return new Date().toLocaleString();
+  }
 
 export const clearHistory = () => {
   return {
@@ -12,7 +15,8 @@ export const updateHistory = (query, response) => {
   return {
     type: 'UPDATE_HISTORY',
     data: response,
-    search_term: query
+    search_term: query,
+    time: getCurrentTime()
   }
 }
 
